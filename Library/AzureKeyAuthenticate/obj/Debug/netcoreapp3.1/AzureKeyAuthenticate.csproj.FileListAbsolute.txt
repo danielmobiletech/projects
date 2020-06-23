@@ -1,0 +1,5 @@
+C:\Users\daniel\source\repos\Library\AzureKeyAuthenticate\bin\Debug\netcoreapp3.1\AzureKeyAuthenticate.deps.json
+C:\Users\daniel\source\repos\Library\AzureKeyAuthenticate\bin\Debug\netcoreapp3.1\AzureKeyAuthenticate.dll
+C:\Users\daniel\source\repos\Library\AzureKeyAuthenticate\obj\Debug\netcoreapp3.1\AzureKeyAuthenticate.csprojAssemblyReference.cache
+C:\Users\daniel\source\repos\Library\AzureKeyAuthenticate\obj\Debug\netcoreapp3.1\AzureKeyAuthenticate.AssemblyInfoInputs.cache
+C:\Users\daniel\source\repos\Library\AzureKeyAuthenticate\obj\Debug\netcoreapp3.1\AzureKeyAuthenticate.AssemblyInfo.cs

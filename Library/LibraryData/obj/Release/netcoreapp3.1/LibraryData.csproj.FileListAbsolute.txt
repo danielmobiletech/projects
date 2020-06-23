@@ -1,0 +1,11 @@
+/Users/daniel/Documents/LibraryManagement/Library/LibraryData/bin/Release/netcoreapp3.1/LibraryData.deps.json
+/Users/daniel/Documents/LibraryManagement/Library/LibraryData/bin/Release/netcoreapp3.1/LibraryData.runtimeconfig.json
+/Users/daniel/Documents/LibraryManagement/Library/LibraryData/bin/Release/netcoreapp3.1/LibraryData.runtimeconfig.dev.json
+/Users/daniel/Documents/LibraryManagement/Library/LibraryData/bin/Release/netcoreapp3.1/LibraryData.dll
+/Users/daniel/Documents/LibraryManagement/Library/LibraryData/bin/Release/netcoreapp3.1/LibraryData.pdb
+/Users/daniel/Documents/LibraryManagement/Library/LibraryData/obj/Release/netcoreapp3.1/LibraryData.AssemblyInfoInputs.cache
+/Users/daniel/Documents/LibraryManagement/Library/LibraryData/obj/Release/netcoreapp3.1/LibraryData.AssemblyInfo.cs
+/Users/daniel/Documents/LibraryManagement/Library/LibraryData/obj/Release/netcoreapp3.1/LibraryData.csproj.CoreCompileInputs.cache
+/Users/daniel/Documents/LibraryManagement/Library/LibraryData/obj/Release/netcoreapp3.1/LibraryData.dll
+/Users/daniel/Documents/LibraryManagement/Library/LibraryData/obj/Release/netcoreapp3.1/LibraryData.pdb
+/Users/daniel/Documents/LibraryManagement/Library/LibraryData/obj/Release/netcoreapp3.1/LibraryData.genruntimeconfig.cache

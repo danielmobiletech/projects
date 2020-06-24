@@ -30,7 +30,7 @@ namespace WebAPI
         {
             services.AddControllers();
             services.AddCors();
-            services.AddDbContext<DonationDbContext>(option => option.UseMySQL("server = 35.236.14.59; database = library-devvc; uid = roots; pwd = z475a8vch7dDd5rI; "));
+            services.AddDbContext<DonationDbContext>(option => option.UseMySQL(""));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,0 +1,16 @@
+﻿@page "{reference}"
+@model Shop.UI.Pages.OrderModel
+@{
+}
+
+
+<div>
+    @Model.Order.OrderRef
+
+    @foreach(var product in Model.Order.Product)
+    {
+        <div>
+            @product.Name - @product.Description - @product.Value - @product.Qty
+        </div>
+    }
+</div>

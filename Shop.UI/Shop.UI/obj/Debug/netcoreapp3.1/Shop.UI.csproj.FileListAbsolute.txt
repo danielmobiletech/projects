@@ -1,0 +1,7 @@
+/Users/daniel/Projects/Shop.UI/Shop.UI/obj/Debug/netcoreapp3.1/Shop.UI.csprojAssemblyReference.cache
+/Users/daniel/Projects/Shop.UI/Shop.UI/obj/Debug/netcoreapp3.1/Shop.UI.AssemblyInfoInputs.cache
+/Users/daniel/Projects/Shop.UI/Shop.UI/obj/Debug/netcoreapp3.1/Shop.UI.AssemblyInfo.cs
+/Users/daniel/Projects/Shop.UI/Shop.UI/obj/Debug/netcoreapp3.1/Shop.UI.csproj.CoreCompileInputs.cache
+/Users/daniel/Projects/Shop.UI/Shop.UI/obj/Debug/netcoreapp3.1/Shop.UI.MvcApplicationPartsAssemblyInfo.cache
+/Users/daniel/Projects/Shop.UI/Shop.UI/obj/Debug/netcoreapp3.1/Shop.UI.RazorAssemblyInfo.cache
+/Users/daniel/Projects/Shop.UI/Shop.UI/obj/Debug/netcoreapp3.1/Shop.UI.RazorAssemblyInfo.cs

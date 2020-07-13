@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{0CE7AE29-CC42-4E2C-A85F-319A101DE3C7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shop.UI/Pages/Product.cshtml.cs">
+    <Files>
+      <File FileName="Shop.Application/Orders/GetOrder.cs" Line="20" Column="18" />
+      <File FileName="Shop.UI/Pages/Order.cshtml.cs" Line="22" Column="18" />
+      <File FileName="Shop.Application/Orders/CreateOrder.cs" Line="36" Column="94" />
+      <File FileName="Shop.UI/Pages/Order.cshtml" Line="1" Column="18" />
+      <File FileName="Shop.UI/Pages/Checkout/Payment.cshtml.cs" Line="42" Column="34" />
+      <File FileName="Shop.Domain/Models/StockOnHold.cs" Line="11" Column="36" />
+      <File FileName="Shop.Database/ApplicationDbContext.cs" Line="17" Column="59" />
+      <File FileName="Shop.Application/Cart/AddToCart.cs" Line="81" Column="9" />
+      <File FileName="Shop.Application/Products/GetProduct.cs" Line="18" Column="84" />
+      <File FileName="Shop.UI/Pages/Product.cshtml.cs" Line="42" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Shop" expanded="True">
+            <Node name="Shop.Application" expanded="True">
+              <Node name="Cart" expanded="True" />
+              <Node name="Orders" expanded="True" />
+              <Node name="Products" expanded="True" />
+            </Node>
+            <Node name="Shop.Database" expanded="True" />
+            <Node name="Shop.Domain" expanded="True">
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="Shop.UI" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Product.cshtml" expanded="True">
+                  <Node name="Product.cshtml.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Shop.UI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

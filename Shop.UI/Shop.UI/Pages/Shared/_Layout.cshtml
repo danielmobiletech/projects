@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Shop.UI</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"/>
+
+</head>
+<body>
+    <a asp-page="/Admin/Index">Admin</a>
+    
+
+
+    <div class="container body-content">
+
+        @RenderBody()
+        <hr />
+        <footer>
+           
+            <p>&copy; 2020 - Shop.UI</p>
+            
+        </footer>
+
+    </div>
+    @await Component.InvokeAsync("Cart")
+
+
+    <!-- <script src="~/js/site.js" asp-append-version="true"></script>-->
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,14 @@
+﻿@page
+@model Shop.UI.CartModel
+@{
+}
+    <div>
+        @foreach (var product in Model.Cart)
+        {
+        <p>@product.Name</p>
+        <p>@product.Values </p>
+        <p>@product.StockId</p>
+        <p>@product.Qty</p>
+        }
+    </div>
+@await Component.InvokeAsync("Cart",new {view="Small" })

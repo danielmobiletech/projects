@@ -1,0 +1,27 @@
+﻿@page "{name}"
+@model Shop.UI.Pages.ProductModel
+@{
+}
+
+
+<div>
+    <p>@Model.Product.Name</p>
+    <p>@Model.Product.Value</p>
+    <p>@Model.Product.Description</p>
+    <div>
+        <form method="post">
+            <label>Stock</label>
+            <select asp-for="CartViewModel.StockId">
+                @foreach (var m in Model.Product.Stock)
+                {
+                    <option value="=@m.Id">@m.Description</option>
+                }
+            </select>
+            <input asp-for="CartViewModel.Qty" />
+            <input type="submit" value="sumbit" />
+        </form>
+    </div>
+</div>
+@await Component.InvokeAsync("Cart")
+
+

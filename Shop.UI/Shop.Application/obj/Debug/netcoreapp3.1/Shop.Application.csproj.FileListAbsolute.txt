@@ -1,0 +1,14 @@
+/Users/daniel/Projects/Shop.UI/Shop.Application/bin/Debug/netcoreapp3.1/Shop.Application.deps.json
+/Users/daniel/Projects/Shop.UI/Shop.Application/bin/Debug/netcoreapp3.1/Shop.Application.dll
+/Users/daniel/Projects/Shop.UI/Shop.Application/bin/Debug/netcoreapp3.1/Shop.Application.pdb
+/Users/daniel/Projects/Shop.UI/Shop.Application/bin/Debug/netcoreapp3.1/Shop.Database.dll
+/Users/daniel/Projects/Shop.UI/Shop.Application/bin/Debug/netcoreapp3.1/Shop.Domain.dll
+/Users/daniel/Projects/Shop.UI/Shop.Application/bin/Debug/netcoreapp3.1/Shop.Database.pdb
+/Users/daniel/Projects/Shop.UI/Shop.Application/bin/Debug/netcoreapp3.1/Shop.Domain.pdb
+/Users/daniel/Projects/Shop.UI/Shop.Application/obj/Debug/netcoreapp3.1/Shop.Application.csprojAssemblyReference.cache
+/Users/daniel/Projects/Shop.UI/Shop.Application/obj/Debug/netcoreapp3.1/Shop.Application.AssemblyInfoInputs.cache
+/Users/daniel/Projects/Shop.UI/Shop.Application/obj/Debug/netcoreapp3.1/Shop.Application.AssemblyInfo.cs
+/Users/daniel/Projects/Shop.UI/Shop.Application/obj/Debug/netcoreapp3.1/Shop.Application.csproj.CoreCompileInputs.cache
+/Users/daniel/Projects/Shop.UI/Shop.Application/obj/Debug/netcoreapp3.1/Shop.Application.csproj.CopyComplete
+/Users/daniel/Projects/Shop.UI/Shop.Application/obj/Debug/netcoreapp3.1/Shop.Application.dll
+/Users/daniel/Projects/Shop.UI/Shop.Application/obj/Debug/netcoreapp3.1/Shop.Application.pdb

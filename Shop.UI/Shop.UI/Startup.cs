@@ -12,6 +12,10 @@ using Microsoft.EntityFrameworkCore;
 using Shop.Database;
 using Microsoft.AspNetCore.Mvc;
 using Stripe;
+using Microsoft.AspNetCore.Identity;
+using Shop.Application.UsersAdmin;
+using Shop.Application;
+
 namespace Shop.UI
 {
     public class Startup
@@ -26,7 +30,17 @@ namespace Shop.UI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddApplicationServices();
             services.AddRazorPages();
+            services.Configure<CookiePolicyOptions>(
+                opt =>
+                {
+                    opt.CheckConsentNeeded = content => true;
+                    opt.MinimumSameSitePolicy = Microsoft.AspNetCore.Http.SameSiteMode.None;
+
+                }
+                );
             services.AddDbContext<ApplicationDbContext>(opt => opt.UseSqlServer("Server = 34.94.133.150; Database = Shop; MultipleActiveResultSets = true; User Id=roots; Password=z475a8vch7dDd5rI;"));
             services.AddMvc(option => option.EnableEndpointRouting = false);
             services.AddControllers();
@@ -49,6 +63,50 @@ namespace Shop.UI
         options.ViewLocationFormats.Add("/{0}.cshtml");
     })
     .SetCompatibilityVersion(CompatibilityVersion.Latest);
+
+
+            services.AddIdentity
+                <IdentityUser,IdentityRole>(opt =>
+                {
+                    opt.Password.RequireDigit = false;
+                    opt.Password.RequiredLength = 6;
+                    opt.Password.RequireNonAlphanumeric = false;
+                    opt.Password.RequireUppercase = false;
+
+
+
+                }
+
+                ).AddEntityFrameworkStores<ApplicationDbContext>();
+
+
+            services.ConfigureApplicationCookie(opt =>
+            {
+                opt.LoginPath = "/Accounts/Login";
+            });
+
+            services.AddMvc().AddRazorPagesOptions(opt => {
+
+
+                opt.Conventions.AuthorizeFolder("/Admin");
+                opt.Conventions.AuthorizePage("/Admin/ConfigureUsers","Admin");
+
+                }).SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+
+            services.AddAuthorizationCore(
+                
+                opt =>
+                {
+
+                    opt.AddPolicy("Admin", policy => policy.RequireClaim("Role","Admin"));
+                   //  opt.AddPolicy("Manager", policy => policy.RequireClaim("Role","Manager"));
+                    opt.AddPolicy("Manager", policy => policy.RequireAssertion(context => context.User.HasClaim("Role", "Manager")||context.User.HasClaim("Role","Admin")));
+
+                }
+
+
+
+                ) ;
         }
     
  
@@ -79,6 +137,8 @@ namespace Shop.UI
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {

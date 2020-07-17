@@ -20585,11 +20585,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/daniel/Projects/Shop.UI/Shop.UI/Components/Cart/Small.cshtml",
-      "TargetPath": "Components\\Cart\\Small.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Users/daniel/Projects/Shop.UI/Shop.UI/Pages/Admin/Stock.cshtml",
       "TargetPath": "Pages\\Admin\\Stock.cshtml",
       "FileKind": "mvc"
@@ -20620,6 +20615,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/daniel/Projects/Shop.UI/Shop.UI/Pages/Admin/OrderManagement.cshtml",
+      "TargetPath": "Pages\\Admin\\OrderManagement.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/daniel/Projects/Shop.UI/Shop.UI/Pages/_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -20635,8 +20635,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/daniel/Projects/Shop.UI/Shop.UI/Pages/Shared/Components/Cart/Small.cshtml",
+      "TargetPath": "Pages\\Shared\\Components\\Cart\\Small.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/daniel/Projects/Shop.UI/Shop.UI/Pages/Admin/_ViewStart.cshtml",
       "TargetPath": "Pages\\Admin\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/daniel/Projects/Shop.UI/Shop.UI/Pages/Accounts/Login.cshtml",
+      "TargetPath": "Pages\\Accounts\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20645,13 +20655,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/daniel/Projects/Shop.UI/Shop.UI/Pages/Admin/_AdminLayout.cshtml",
-      "TargetPath": "Pages\\Admin\\_AdminLayout.cshtml",
+      "FilePath": "/Users/daniel/Projects/Shop.UI/Shop.UI/Cart/Small.cshtml",
+      "TargetPath": "Cart\\Small.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/daniel/Projects/Shop.UI/Shop.UI/Components/Cart/Default.cshtml",
-      "TargetPath": "Components\\Cart\\Default.cshtml",
+      "FilePath": "/Users/daniel/Projects/Shop.UI/Shop.UI/Pages/Admin/_AdminLayout.cshtml",
+      "TargetPath": "Pages\\Admin\\_AdminLayout.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20660,8 +20670,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/daniel/Projects/Shop.UI/Shop.UI/Cart/Default.cshtml",
+      "TargetPath": "Cart\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/daniel/Projects/Shop.UI/Shop.UI/Pages/Admin/Index.cshtml",
       "TargetPath": "Pages\\Admin\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/daniel/Projects/Shop.UI/Shop.UI/Pages/Admin/ConfigureUsers.cshtml",
+      "TargetPath": "Pages\\Admin\\ConfigureUsers.cshtml",
       "FileKind": "mvc"
     }
   ],

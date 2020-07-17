@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace Shop.Application.Products
 {
@@ -13,9 +14,19 @@ namespace Shop.Application.Products
         }
         public IEnumerable<ProductViewModel> Do() =>
         
-            _context.Products.ToList().Select(m => new GetProducts.ProductViewModel { Name = m.Name,
-            Description = m.Description,
-            Value = $"${ m.Value.ToString("N2") }" });
+            _context.Products
+            .Include(x=>x.Stocks)
+            .Select(m => new GetProducts.ProductViewModel
+            {
+                Name = m.Name,
+
+                Description = m.Description,
+
+                Value = $"${ m.Value.ToString("N2") }",
+                StockCount=m.Stocks.Sum(x=>x.Qty)
+                
+
+            }).ToList();
 
 
 
@@ -24,6 +35,7 @@ namespace Shop.Application.Products
             public string Description { get; set; }
             public string Name { get; set; }
             public string Value { get; set; }
+            public int StockCount { get; set; }
         }
     }
    

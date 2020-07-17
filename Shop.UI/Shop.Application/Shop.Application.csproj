@@ -10,6 +10,7 @@
     <Folder Include="StockAdmin\" />
     <Folder Include="Cart\" />
     <Folder Include="Orders\" />
+    <Folder Include="OrdersAdmin\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Shop.Database\Shop.Database.csproj" />

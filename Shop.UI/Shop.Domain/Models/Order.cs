@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Shop.Domain.Enum;
 
 namespace Shop.Domain.Models
 {
@@ -9,7 +10,7 @@ namespace Shop.Domain.Models
         public string OrderRef { get; set; }
         public string StripeRef { get; set; }
 
-
+        public OrderStatus Status { get; set; }
         public string FirstName { get; set; }
         public string LastName{ get; set; }
         public string Email { get; set; }

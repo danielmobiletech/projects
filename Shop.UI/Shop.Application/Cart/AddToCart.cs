@@ -25,6 +25,7 @@ namespace Shop.Application.Cart
         {
 
 
+            var stocOnkHold = _context.StockOnHolds.Where(x => x.SessionId == _session.Id).ToList();
             var stockHold = _context.Stocks.Where(x => x.Id == request.StockId).FirstOrDefault();
             if (stockHold.Qty<request.Qty)
             {
@@ -37,13 +38,21 @@ namespace Shop.Application.Cart
             {
 
                 StockId = request.StockId,
+                SessionId=_session.Id, 
                 Qty = request.Qty,
                 ExpireDate = DateTime.Now.AddMinutes(20)
 
 
             }) ;
 
-            stockHold.Qty -= request.Qty;
+            stockHold.Qty = stockHold.Qty-request.Qty;
+
+            foreach(var stock in stocOnkHold)
+            {
+                 
+                stock.ExpireDate = DateTime.Now.AddMinutes(20);
+            }
+
             await _context.SaveChangesAsync();
 
 
@@ -70,12 +79,9 @@ namespace Shop.Application.Cart
             }
 
 
-            var cartProduct = new CartProduct
-            {
-                StockId = request.StockId,
-                Qty = request.Qty
-            };
-             stringObject = JsonConvert.SerializeObject(cartProduct);
+           
+            //cartList.Add(cartProduct);
+             stringObject = JsonConvert.SerializeObject(cartList);
             _session.SetString("cart", stringObject);
             return true;
         }

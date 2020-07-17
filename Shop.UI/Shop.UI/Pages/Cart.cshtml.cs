@@ -16,10 +16,10 @@ namespace Shop.UI
         {
             _context = context;
         }
-        public IEnumerable<GetCart.Response> Cart {get;set; }
+        public IEnumerable<GetCart.Response> CartList {get;set; }
         public IActionResult OnGet()
         {
-            Cart = new GetCart(HttpContext.Session, _context).Do();
+            CartList = new GetCart(HttpContext.Session, _context).Do();
             return Page();
         }
     }

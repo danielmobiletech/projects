@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Shop.Application.Cart;
 using Shop.Database;
@@ -14,6 +15,13 @@ namespace Shop.UI.ViewComponents
         }
         public IViewComponentResult Invoke(string view="Default")
         {
+            if(view=="Small")
+            {
+
+                var totalvalue = new GetCart(HttpContext.Session, _context).Do().Sum(x => x.Qty * x.TotalValue);
+                return View(view,  $"${totalvalue}");
+            }
+
             return View(view,new GetCart(HttpContext.Session, _context).Do());
         }
     }

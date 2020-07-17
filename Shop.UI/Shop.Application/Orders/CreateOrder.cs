@@ -30,11 +30,8 @@ namespace Shop.Application.Orders
         }
         public async Task<bool> Do(Request request)
         {
-            var stocksToUpdate = _context.Stocks.Where(x => request.Stocks.Any(y => y.StockId == x.Id)).ToList();
-            foreach(var stocks in stocksToUpdate)
-            {
-                stocks.Qty -= request.Stocks.FirstOrDefault(x => x.StockId == stocks.Id).Qty;
-            }
+            var stocksToUpdate = _context.StockOnHolds.Where(x => request.SessionId==x.SessionId).ToList();
+            _context.StockOnHolds.RemoveRange(stocksToUpdate);
 
             var order = new Order
             {
@@ -69,6 +66,8 @@ namespace Shop.Application.Orders
         {
             public string StripeRef { get; set; }
             public string FirstName { get; set; }
+
+            public string SessionId { get; set; }
             
             public string LastName { get; set; }
             

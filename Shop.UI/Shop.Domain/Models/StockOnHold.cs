@@ -10,5 +10,7 @@ namespace Shop.Domain.Models
 
         public int Qty { get; set; }
         public DateTime ExpireDate { get; set; }
+
+        public string SessionId { get; set; }
     }
 }

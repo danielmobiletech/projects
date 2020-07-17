@@ -5351,13 +5351,12 @@
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/daniel/.nuget/NuGet/NuGet.Config"
+        "/Users/daniel/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "/Users/daniel/.nuget/NuGet/Microsoft.AspNet.WebApi.Cors": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5419,7 +5418,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
       }
     }
   }

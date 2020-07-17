@@ -25,10 +25,13 @@
     <Folder Include="wwwroot\js\admin\" />
     <Folder Include="wwwroot\lib\" />
     <Folder Include="ViewComponents\" />
-    <Folder Include="Components\" />
     <Folder Include="Pages\Shared\Components\" />
     <Folder Include="Pages\Checkout\" />
     <Folder Include="wwwroot\js\Stripe\" />
+    <Folder Include="Pages\Accounts\" />
+    <Folder Include="UsersAdmin\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="Pages\Shared\Components\Cart\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Pages\Admin\Orders.cshtml" />

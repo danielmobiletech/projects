@@ -2,13 +2,41 @@
 @model Shop.UI.CartModel
 @{
 }
-    <div>
-        @foreach (var product in Model.Cart)
-        {
-        <p>@product.Name</p>
-        <p>@product.Values </p>
-        <p>@product.StockId</p>
-        <p>@product.Qty</p>
-        }
+    <div class="container">
+        <div class="columns">
+            <div class="column is-8 is-offset-2">
+            @foreach (var product in Model.CartList)
+            {
+                <div class="level">
+                    <div class="level-item">
+                        <figure class="image is-128-128">
+                            <img src="~/images/item.png" />
+                        </figure>
+                    </div>
+                    <div class="level-item">
+                        <p class="title">
+                            @product.Qty
+                        </p>
+                    </div>
+                    <div class="level-item">
+                        <p class="title">
+                            @product.Name
+                        </p>
+                    </div>
+
+
+
+                    <div class="level-item">
+                        <p>@product.Values </p>
+                    </div>
+
+                </div>
+            }
+            <div class="has-text-right">
+                <a asp-page="/index" class="button is-text">Let me add more </a>
+                <a asp-page="/Checkout/CustomerInformation" class="button is-success">Checkout</a>
+            </div>
+            </div>
+        </div>
     </div>
-@await Component.InvokeAsync("Cart",new {view="Small" })
+@*@await Component.InvokeAsync("Cart",new {view="Small" })*@

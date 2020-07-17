@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Shop.Database;
 
@@ -13,9 +14,32 @@ namespace Shop.Application.Products
         {
             _context = context;
         }
-        public ProductViewModel Do(string name)
+        public async Task<ProductViewModel> Do(string name)
         {
-            _context.StockOnHolds.Where(x => x.ExpireDate < DateTime.Now).ToList();
+            var stockOnHold=_context.StockOnHolds.Where(x => x.ExpireDate < DateTime.Now).ToList();
+            if(stockOnHold.Count>0)
+            {
+                var stockToReturn = new List<Domain.Models.Stock>();
+                foreach(var holds in stockOnHold)
+                {
+                    if(_context.Stocks.Any(x=>x.Id==holds.Id))
+                    {
+                        stockToReturn.Add(_context.Stocks.FirstOrDefault(x => x.Id == holds.Id));
+                        //break;
+                    }
+                }
+                /*
+                var stockToReturn = _context.Stocks.Where(x => stockOnHold.Any(y => y.StockId == x.Id)).ToList();
+                */
+                foreach (var stock in stockToReturn)
+                {
+                    stock.Qty = stock.Qty + stockOnHold.FirstOrDefault(x => x.StockId == stock.Id).Qty;
+                }
+
+                _context.StockOnHolds.RemoveRange(stockOnHold);
+                await _context.SaveChangesAsync();
+            }
+
 
             return _context.Products
            .Include(x => x.Stocks)
@@ -30,7 +54,7 @@ namespace Shop.Application.Products
                 {
                     Id = y.Id,
                     Description = y.Description,
-                    InStock = (y.Qty > 0)
+                    Qty=y.Qty
 
 
                 })
@@ -50,7 +74,9 @@ namespace Shop.Application.Products
         {
             public int Id { get; set; }
             public string Description { get; set; }
-            public bool InStock { get; set; }
+            public int Qty { get; set; }
+           // public bool InStock { get; set; }
+           
         }
     }
 }

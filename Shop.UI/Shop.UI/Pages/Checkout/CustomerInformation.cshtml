@@ -2,39 +2,90 @@
 @model Shop.UI.Pages.Checkout.CustomerInformationModel
 @{
 }
-    <div>
-        <form action="/" method="post">
-            
-           
-             <div> 
-                <input asp-for="CustomerInformation.LastName" />
-                <span asp-validation-for="CustomerInformation.LastName"></span>
-             </div>
-             <div>
-                 <input asp-for="CustomerInformation.PhoneNumber" />
-                 <span asp-validation-for="CustomerInformation.PhoneNumber"></span>
-             </div>
-             <div>
-                 <input asp-for="CustomerInformation.Email" />
-                 <span asp-validation-for="CustomerInformation.Email"></span>
-             </div>
+    <div class="columns">
+        <div class="column is-6">
 
-            <div>
-                <input asp-for="CustomerInformation.Address1" />
-                <span asp-validation-for="CustomerInformation.Address1"></span>
+        <form method="post">
+
+
+            <div class="field">
+
+                <p class="control">
+                    <label class="label">First Name</label>
+                    <input asp-for="CustomerInformation.FirstName" />
+                </p>
+                <span class="help is-warning" asp-validation-for="CustomerInformation.FirstName "></span>
+
             </div>
-            <div>
-                <input asp-for="CustomerInformation.Address2" />
+            <div class="field">
+
+                <p class="control">
+                    <label class="label">Last Name</label>
+                    <input asp-for="CustomerInformation.LastName" />
+                </p>
+                <span class="help is-warning" asp-validation-for="CustomerInformation.LastName"></span>
+
             </div>
-            <div>
-                <input asp-for="CustomerInformation.City" />
-                <span asp-validation-for="CustomerInformation.City"></span>
+            < <div class="field">
+
+                <p class="control">
+                    <label class="label">Phone Number</label>
+                    <input asp-for="CustomerInformation.PhoneNumber" />
+                </p>
+                <span class="help is-warning" asp-validation-for="CustomerInformation.PhoneNumber "></span>
+
             </div>
-            <div>
-                <input asp-for="CustomerInformation.PostCode" />
-                <span asp-validation-for="CustomerInformation.PostCode"></span>
+            <div class="field">
+
+                <p class="control">
+                    <label class="label">Email</label>
+                    <input asp-for="CustomerInformation.Email" />
+                </p>
+                <span class="help is-warning" asp-validation-for="CustomerInformation.Email "></span>
+
             </div>
 
-                <button type="submit">Submit</button>
-</form>
+            <div class="field">
+
+                <p class="control">
+                    <label class="label">Address 1</label>
+                    <input asp-for="CustomerInformation.Address1" />
+                </p>
+                <span class="help is-warning" asp-validation-for="CustomerInformation.Address1 "></span>
+
+            </div>
+            <div class="field">
+
+                <p class="control">
+                    <label class="label">Address 2</label>
+                    <input asp-for="CustomerInformation.Address2" />
+                </p>
+                <span class="help is-warning"></span>
+
+            </div>
+            <div class="field">
+
+                <p class="control">
+                    <label class="label">City</label>
+                    <input asp-for="CustomerInformation.City" />
+                </p>
+                <span class="help is-warning" asp-validation-for="CustomerInformation.City "></span>
+
+            </div>
+            <div class="field">
+
+                <p class="control">
+                    <label class="label">Post Code</label>
+                    <input asp-for="CustomerInformation.PostCode" />
+                </p>
+                <span class="help is-warning" asp-validation-for="CustomerInformation.PostCode"></span>
+
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+        <div class="column is-6">
+            @await Component.InvokeAsync("Cart")
+        </div>
     </div>

@@ -9,12 +9,14 @@ using Shop.Application.Cart;
 using Shop.Application.Products;
 using Shop.Database;
 
+
 namespace Shop.UI.Pages
 {
     public class ProductModel : PageModel
     {
         [BindProperty]
         public AddToCart.Request CartViewModel { get; set; }
+
         public Test ProductTest { get; set; }
 
         public class Test
@@ -27,10 +29,10 @@ namespace Shop.UI.Pages
             _context = context;
         }
         public GetProduct.ProductViewModel Product { get; set; }
-        public IActionResult OnGet(string name)
+        public async Task<IActionResult> OnGet(string name)
         {
-            Product = new GetProduct(_context).Do(name);
-            if(Product ==null)
+            Product = await new GetProduct(_context).Do(name.Replace("-", " "));
+            if (Product == null)
             {
                 return RedirectToPage("Index");
             }
@@ -38,9 +40,14 @@ namespace Shop.UI.Pages
         }
         public async Task<IActionResult> OnPost()
         {
-            
-            await new AddToCart(HttpContext.Session).Do(CartViewModel);
-            return RedirectToPage("index");
+
+            var result = await new AddToCart(HttpContext.Session, _context).Do(CartViewModel);
+            if (result)
+            {
+                return RedirectToPage("Cart");
+            }
+            else return Page();
+
         }
     }
 }

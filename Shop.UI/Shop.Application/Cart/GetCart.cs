@@ -20,11 +20,7 @@ namespace Shop.Application.Cart
             _context = context;
         }
 
-        public void Do(Request request)
-        {
-           
-            
-        }
+        
 
 
 
@@ -32,6 +28,7 @@ namespace Shop.Application.Cart
         {
             public string Name { get; set; }
             public string Values { get; set; }
+            public decimal TotalValue { get; set; }
             public int Qty { get; set; }
             public int StockId { get; set; }
         }
@@ -46,25 +43,45 @@ namespace Shop.Application.Cart
             }
 
             var cartList = JsonConvert.DeserializeObject<List<CartProduct>>(stringObj);
+            var resp = new List<Response>();
+
             var response = _context.Stocks
-                 .Include(x => x.Products)
-                 .Where(x => cartList.Any(m=>m.StockId==x.Id)) 
-                 .Select(y => new Response
+                 .Include(x => x.Products);
+                /* .Where(x => cartList.Any(y => y.StockId == x.Id))
+                 .Select(x => new Response
                  {
-                     Name = y.Products.Name,
-                     StockId = y.Id,
-                     Qty = cartList.FirstOrDefault(n=>n.StockId==y.Id).Qty,
-                     Values = $"${y.Products.Value.ToString("N2") }"
+                     Name = x.Products.Name,
+                     StockId = x.Id,
+                     TotalValue = x.Products.Value,
+                     Qty = cartList.FirstOrDefault(n => n.StockId == x.Id).Qty,
+                     Values = $"${x.Products.Value.ToString("N2") }"
 
-                 }).ToList();
+                 }).ToList();*/
+                 
+            foreach (var cart in cartList)
+            {
+                if(response.Any(x=>x.Id==cart.StockId))
+                {
+                    var res = response.FirstOrDefault(x => x.Id == cart.StockId);
 
-            return response;
+                    resp.Add(new Response
+                    {
+                        Name = res.Products.Name,
+                        StockId = res.Id,
+                        TotalValue = res.Products.Value,
+                        Qty = cartList.FirstOrDefault(n => n.StockId == res.Id).Qty,
+                        Values = $"${res.Products.Value.ToString("N2") }"
+                    }); 
+
+
+                }
+
+            }
+            
+
+            return resp;
         }
-        public class Request
-        {
-            public int StockId { get; set; }
-            public int Qty { get; set; }
-        }
+        
     }
     
 }

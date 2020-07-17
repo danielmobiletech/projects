@@ -1,16 +1,49 @@
 ﻿<Properties StartupConfiguration="{0CE7AE29-CC42-4E2C-A85F-319A101DE3C7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Shop.UI/Pages/Product.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shop.UI/Pages/Cart.cshtml">
     <Files>
-      <File FileName="Shop.Application/Orders/GetOrder.cs" Line="20" Column="18" />
-      <File FileName="Shop.UI/Pages/Order.cshtml.cs" Line="22" Column="18" />
-      <File FileName="Shop.Application/Orders/CreateOrder.cs" Line="36" Column="94" />
-      <File FileName="Shop.UI/Pages/Order.cshtml" Line="1" Column="18" />
-      <File FileName="Shop.UI/Pages/Checkout/Payment.cshtml.cs" Line="42" Column="34" />
-      <File FileName="Shop.Domain/Models/StockOnHold.cs" Line="11" Column="36" />
-      <File FileName="Shop.Database/ApplicationDbContext.cs" Line="17" Column="59" />
-      <File FileName="Shop.Application/Cart/AddToCart.cs" Line="81" Column="9" />
-      <File FileName="Shop.Application/Products/GetProduct.cs" Line="18" Column="84" />
-      <File FileName="Shop.UI/Pages/Product.cshtml.cs" Line="42" Column="17" />
+      <File FileName="Shop.UI/Startup.cs" Line="44" Column="104" />
+      <File FileName="Shop.UI/Program.cs" />
+      <File FileName="Shop.UI/Pages/Accounts/Login.cshtml" />
+      <File FileName="Shop.UI/Pages/Accounts/Login.cshtml.cs" />
+      <File FileName="Shop.UI/Controllers/AccountController.cs" />
+      <File FileName="Shop.UI/Pages/Admin/_AdminLayout.cshtml" />
+      <File FileName="Shop.UI/Pages/Admin/Stock.cshtml" />
+      <File FileName="Shop.UI/Pages/Admin/OrderManagement.cshtml" />
+      <File FileName="Shop.UI/Pages/Admin/OrderManagement.cshtml.cs" />
+      <File FileName="Shop.UI/Pages/_ViewImports.cshtml" />
+      <File FileName="Shop.UI/Pages/Admin/Index.cshtml" />
+      <File FileName="Shop.UI/Controllers/StocksController.cs" />
+      <File FileName="Shop.UI/Controllers/OrdersController.cs" />
+      <File FileName="Shop.UI/wwwroot/js/admin/stock.js" />
+      <File FileName="Shop.UI/wwwroot/js/admin/orders.js" />
+      <File FileName="Shop.UI/Pages/Admin/ConfigureUsers.cshtml" />
+      <File FileName="Shop.UI/Pages/Admin/ConfigureUsers.cshtml.cs" />
+      <File FileName="Shop.UI/Pages/Shared/_Layout.cshtml" />
+      <File FileName="Shop.UI/wwwroot/js/site.js" />
+      <File FileName="Shop.UI/Pages/Index.cshtml" />
+      <File FileName="Shop.Application/Products/GetProduct.cs" />
+      <File FileName="Shop.Application/Products/GetProducts.cs" />
+      <File FileName="Shop.UI/Pages/Product.cshtml" />
+      <File FileName="Shop.UI/Pages/Product.cshtml.cs" Line="35" Column="33" />
+      <File FileName="Shop.UI/Controllers/ProductsController.cs" />
+      <File FileName="Shop.Application/ServiceRegister.cs" />
+      <File FileName="Shop.Application/UsersAdmin/CreateUser.cs" />
+      <File FileName="Shop.UI/Cart/Default.cshtml" />
+      <File FileName="Shop.UI/Cart/Small.cshtml" />
+      <File FileName="Shop.Application/Orders/GetOrder.cs" />
+      <File FileName="Shop.UI/Controllers/UsersController.cs" />
+      <File FileName="Shop.UI/Shop.UI.csproj" />
+      <File FileName="Shop.UI/Pages/Admin/Index.cshtml.cs" />
+      <File FileName="Shop.Domain/Models/Stock.cs" />
+      <File FileName="Shop.Domain/Models/StockOnHold.cs" />
+      <File FileName="Shop.Database/ApplicationDbContext.cs" />
+      <File FileName="Shop.Application/Cart/AddToCart.cs" />
+      <File FileName="Shop.Application/Orders/CreateOrder.cs" />
+      <File FileName="Shop.UI/Pages/Cart.cshtml.cs" />
+      <File FileName="Shop.Application/Cart/GetOrder.cs" />
+      <File FileName="Shop.UI/Pages/Index.cshtml.cs" />
+      <File FileName="Shop.Application/Cart/GetCart.cs" Line="50" Column="69" />
+      <File FileName="Shop.UI/Pages/Cart.cshtml" Line="18" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,15 +55,15 @@
               <Node name="Products" expanded="True" />
             </Node>
             <Node name="Shop.Database" expanded="True" />
-            <Node name="Shop.Domain" expanded="True">
-              <Node name="Models" expanded="True" />
-            </Node>
             <Node name="Shop.UI" expanded="True">
+              <Node name="Cart" expanded="True" />
+              <Node name="Migrations" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="Product.cshtml" expanded="True">
-                  <Node name="Product.cshtml.cs" selected="True" />
-                </Node>
+                <Node name="Cart.cshtml" expanded="True" selected="True" />
+                <Node name="Index.cshtml" expanded="True" />
+                <Node name="Product.cshtml" expanded="True" />
               </Node>
+              <Node name="ViewComponents" expanded="True" />
             </Node>
           </Node>
         </State>

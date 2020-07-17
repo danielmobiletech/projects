@@ -14,7 +14,7 @@ namespace Shop.UI.Pages
     {
         [BindProperty]
         public CreateProduct.ProductViewModel Product { get; set; }
-
+       
         
 
         

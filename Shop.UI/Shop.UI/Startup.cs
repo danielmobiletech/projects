@@ -41,7 +41,7 @@ namespace Shop.UI
 
                 }
                 );
-            services.AddDbContext<ApplicationDbContext>(opt => opt.UseSqlServer("Server = 34.94.133.150; Database = Shop; MultipleActiveResultSets = true; User Id=roots; Password=z475a8vch7dDd5rI;"));
+            services.AddDbContext<ApplicationDbContext>(opt => opt.UseSqlServer(""));
             services.AddMvc(option => option.EnableEndpointRouting = false);
             services.AddControllers();
             services.AddControllers().AddNewtonsoftJson(options =>

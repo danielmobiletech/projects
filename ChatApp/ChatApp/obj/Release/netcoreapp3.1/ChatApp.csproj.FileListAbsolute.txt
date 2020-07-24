@@ -1,0 +1,6 @@
+/Users/daniel/Projects/ChatApp/ChatApp/obj/Release/netcoreapp3.1/ChatApp.AssemblyInfoInputs.cache
+/Users/daniel/Projects/ChatApp/ChatApp/obj/Release/netcoreapp3.1/ChatApp.AssemblyInfo.cs
+/Users/daniel/Projects/ChatApp/ChatApp/obj/Release/netcoreapp3.1/ChatApp.csproj.CoreCompileInputs.cache
+/Users/daniel/Projects/ChatApp/ChatApp/obj/Release/netcoreapp3.1/ChatApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/daniel/Projects/ChatApp/ChatApp/obj/Release/netcoreapp3.1/ChatApp.RazorAssemblyInfo.cache
+/Users/daniel/Projects/ChatApp/ChatApp/obj/Release/netcoreapp3.1/ChatApp.RazorAssemblyInfo.cs

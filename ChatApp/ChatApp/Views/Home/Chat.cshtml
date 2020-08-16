@@ -1,0 +1,104 @@
+﻿@model Chat
+
+    <div class="chat-body">
+        @foreach (var message in Model.Messages)
+        {
+        <div class="message">
+            <header>@message.Name</header>
+            <p>@message.Text</p>
+            <footer>@message.TimeStamp</footer>
+        </div>
+
+       
+
+        }
+    </div>
+        <form class="chat-input" asp-action="CreateMessage" asp-controller="Home">
+
+
+        <input type="text" name="message"/>
+        <button type="submit">Send</button>
+            <input type="hidden" name="chatId" value="@Model.Id"/>
+            <button type="submit">Submit</button>
+        </form>
+@section script{
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type="text/javascript" src="~/js/signalr.min.js"></script>
+
+
+
+<script>
+    var _connectionId = '';
+    var connection = new signalR.HubConnectionBuilder()
+        .withUrl("/chatHub")
+        .build();
+
+    connection.on("RecieveMessage", function (data) {
+        console.log(data);
+        var message = document.createElement("div");
+        message.classList.add('message');
+
+        var header = document.createElement("header");
+        header.appendChild(document.createTextNode(data.name));
+
+        var p = document.createElement("p");
+        header.appendChild(document.createTextNode(data.text));
+
+        var footer = document.createElement("footer");
+        var date = new Date(data.timestamp).toLocaleString()
+        footer.appendChild(document.createTextNode(date))
+
+        message.appendChild(header)
+        message.appendChild(p)
+        message.appendChild(footer)
+        
+        var body = document.querySelector('.chat-body');
+        body.append()
+
+    });
+
+
+    connection.start()
+        .then(function () {
+            connection.invoke('getConnectionId')
+                .then(function (connectionId) {
+                    _connectionId = connectionId;
+                    joinRoom();
+                })
+        })
+        .catch(function (err) { console.log(err) });
+
+
+
+    var joinRoom = function () {
+
+        var url = '/chat/JoinRoom/' + _connectionId + '/@Model.Name';
+        axios.post(url, null)
+            .then(res => {
+                console.log("Room Joined!", res);
+            })
+            .catch(err => {
+                console.log('failed to join',err);
+
+            })
+
+    }
+
+
+    var form = null;
+
+    var sendMessage = function (event) {
+        event.preventDefault();
+
+        var data = new FormData(event.target);
+        document.getElementById('message-input').value = '';
+        axios.post('/Chat/SendMessage', data)
+            .then(res => {
+                console.log("sent",res);
+            }).catch(err => {console.log('sent fail',err)})
+
+    }
+
+
+</script>
+}

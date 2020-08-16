@@ -1,27 +1,9 @@
-﻿<div>
-@for(int i = 0; i < 20; i++)
-{
+﻿@model IEnumerable<Chat> 
     <div class="chat-body">
-        <div class="message">
-            <header>Anton:</header>
-            <p>this is text</p>
-            <footer>16:00</footer>
-        </div>
+        @foreach (var chat in Model)
+        {
+            <a class="room-button" asp-controller="Home" asp-action="Chat" asp-route-id="@chat.Id">@chat.Name</a>
 
-        <div class="message">
-            <header>bob:</header>
-            <p>this is text</p>
-            <footer>16:00</footer>
-        </div>
-        <div class="message">
-            <header>bob:</header>
-            <p>Hello Hello</p>
-            <footer>16:00</footer>
-        </div>
+        }
+
     </div>
-}
-</div>
-<div class="chat-input">
-    <input type="text"/>
-    <button>Send</button>
-</div>

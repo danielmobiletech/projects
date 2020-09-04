@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{9EA4391E-8E43-4435-A3F0-A7650A1B6B9C}|Default">
+  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebAPI" expanded="True">
+            <Node name="WebAPI" expanded="True">
+              <Node name="ConnectedServicesFolder" selected="True" />
+              <Node name="Dependencies" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

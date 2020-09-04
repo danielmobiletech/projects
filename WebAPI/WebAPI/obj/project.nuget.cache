@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AI+2ezp/laC2g6++CzvyUpyJWfOjCl0eORLLQTgvaeuKmzn0374RjJ7v14+Li3reNW2PH63YzKOlVSOpZkw8XQ==",
+  "dgSpecHash": "F4xyj3dGOa5hRHi2oVY7uEjkFi5PhK87O2b1Tx9WZiZcA+8Rugqtq4WGRLTnhAiDv55XfhtztVDW5Nnip0ao3g==",
   "success": true,
-  "projectFilePath": "/Users/daniel/Projects/WebAPI/WebAPI/WebAPI.csproj",
+  "projectFilePath": "/Users/daniel/Documents/GitHub/projects/WebAPI/WebAPI/WebAPI.csproj",
   "expectedPackageFiles": [
     "/Users/daniel/.nuget/packages/bouncycastle.netcore/1.8.3/bouncycastle.netcore.1.8.3.nupkg.sha512",
     "/Users/daniel/.nuget/packages/entityframework/6.4.4/entityframework.6.4.4.nupkg.sha512",

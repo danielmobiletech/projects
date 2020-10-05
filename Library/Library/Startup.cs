@@ -33,7 +33,8 @@ namespace Library
             services.AddControllersWithViews();
             
             services.AddDbContextPool<LibraryContext>(options =>
-               options.UseMySQL(Configuration.GetConnectionString("LibraryConnect")));
+                    options.UseMySQL(Configuration.GetConnectionString("LibraryConnect")));
+            //Configuration for dependancy Injection
             services.AddSingleton(Configuration);
             services.AddScoped<ILibraryCardService, LibraryCardService>();
             services.AddScoped<ILibraryBranchService, LibraryBranchService>();

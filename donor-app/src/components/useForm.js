@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 
+
+// Validates forms when incorrect data
 const useForm = (initialFieldValues, validate, setCurrentId) => {
     const [values, setValues] = useState(initialFieldValues)
     const [errors, setErrors] = useState({})

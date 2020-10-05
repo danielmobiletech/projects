@@ -1,3 +1,4 @@
+//this component styles the button container
 import style from 'styled-components'
 export const ButtonContainer = style.button`
 text-transform:capitalize;

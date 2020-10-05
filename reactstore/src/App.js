@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 //import logo from './logo.svg'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-//import Cart from '../files/'
-//import Product from './ProductList'
+
 import ProductList from './ProductList'
 import Navbar from './Navbar'
 import Details from './Details'
@@ -11,8 +10,11 @@ import Cart from './Cart/Cart'
 import Default from './Default'
 import Modal from './Modal'
 import { Switch, Route } from 'react-router-dom'
-//import { ProductProvider } from './Context'
-//import Modal from './Modal'
+/**
+ * The main allow sub comonents are loaded into app comonents
+ * the router controls the routing between cart, details, productlist while 
+ * the navbar sits at the top
+ */
 export default class App extends Component {
   
   render () {

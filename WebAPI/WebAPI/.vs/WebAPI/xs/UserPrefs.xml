@@ -4,9 +4,8 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WebAPI" expanded="True">
+          <Node name="WebAPI" expanded="True" selected="True">
             <Node name="WebAPI" expanded="True">
-              <Node name="ConnectedServicesFolder" selected="True" />
               <Node name="Dependencies" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>

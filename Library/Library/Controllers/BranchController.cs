@@ -8,7 +8,7 @@ namespace Library.Controllers
     public class BranchController : Controller
     {
         private readonly ILibraryBranchService _branchService;
-
+        // Assign Library Context when controller
         public BranchController(ILibraryBranchService branchService)
         {
             _branchService = branchService;

@@ -43,7 +43,7 @@ namespace LibraryService
         {
             return Get(branchId).LibraryAssets.Count();
         }
-
+        // Gets Assets based off the BranchId and returns the first found asset
         public IEnumerable<LibraryAsset> GetAssets(int branchId)
         {
             return _context.LibraryBranches.Include(a => a.LibraryAssets)

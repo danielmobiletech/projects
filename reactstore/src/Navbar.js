@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom'
 import logo from './logo.svg'
 import styled from 'styled-components'
 import {ButtonContainer} from './Button'
-
+/*
+   Organizes Navigation Links For Home, Products, and Cart
+*/
 export default class Navbar extends Component {
   
   render () {
@@ -34,6 +36,8 @@ export default class Navbar extends Component {
     )
   }
 }
+
+//this Designs the css of the NavWrapper background and fonts deisgn that inside the wrapper
 const NavWrapper = styled.nav`
   background: var(--lightBlue);
   .nav-link {

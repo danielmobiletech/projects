@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yuBiLNX9/DuEE4lUwuD9HVmJCTqr+bHZDe+m3LLSMQfWMiB51oO5wATNQBrt3YMr1WnPu5eKnvP1aRntYQ41xw==",
+  "dgSpecHash": "Jr8V1JWjZ7GGAK3K6cusaRutAguLtfhs0yAr4Epvz0V6nDh4pK1JimnuabMHEFmDEn5bnduASDSC6E6Epoe0Bg==",
   "success": true,
-  "projectFilePath": "/Users/daniel/Documents/LibraryManagement/Library/LibraryServices/LibraryServices.csproj",
+  "projectFilePath": "/Users/daniel/Documents/GitHub/projects/Library/LibraryServices/LibraryServices.csproj",
   "expectedPackageFiles": [
     "/Users/daniel/.nuget/packages/bouncycastle.netcore/1.8.3/bouncycastle.netcore.1.8.3.nupkg.sha512",
     "/Users/daniel/.nuget/packages/google.protobuf/3.6.1/google.protobuf.3.6.1.nupkg.sha512",

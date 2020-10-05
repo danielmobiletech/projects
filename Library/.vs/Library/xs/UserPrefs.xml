@@ -1,35 +1,42 @@
 ﻿<Properties StartupConfiguration="{271B4A75-C600-4027-9AC8-893FC8BF671C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Library/Views/Catalog/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Library/Controllers/BranchController.cs">
     <Files>
-      <File FileName="Library/appsettings.json" Line="3" Column="111" />
-      <File FileName="Library/Startup.cs" Line="34" Column="13" />
-      <File FileName="Library/Models/Catalog/AssetDetailModel.cs" Line="1" Column="1" />
-      <File FileName="LibraryServices/LibraryBranchService.cs" Line="76" Column="74" />
-      <File FileName="LibraryServices/CheckoutService.cs" Line="1" Column="1" />
-      <File FileName="LibraryServices/BookService.cs" Line="30" Column="35" />
-      <File FileName="LibraryServices/LibraryAssetService.cs" Line="37" Column="51" />
-      <File FileName="Library/Models/Catalog/AssetIndexListingModel.cs" Line="1" Column="1" />
-      <File FileName="Library/Models/Catalog/AssetIndexModel.cs" Line="1" Column="1" />
-      <File FileName="Library/Views/Home/Index.cshtml" Line="55" Column="7" />
-      <File FileName="Library/Views/Catalog/Detail.cshtml" Line="71" Column="69" />
-      <File FileName="Library/Views/Catalog/Hold.cshtml" Line="1" Column="1" />
-      <File FileName="Library/Views/Catalog/Index.cshtml" Line="46" Column="2" />
-      <File FileName="Library/Views/Catalog/Checkout.cshtml" Line="10" Column="19" />
-      <File FileName="Library/wwwroot/css/site.css" Line="2" Column="5" />
-      <File FileName="Library/wwwroot/css/styles.css" Line="170" Column="2" />
-      <File FileName="Library/Library.csproj" Line="1" Column="1" />
+      <File FileName="Library/Controllers/BranchController.cs" Line="11" Column="50" />
+      <File FileName="Library/Controllers/PatronController.cs" Line="1" Column="1" />
+      <File FileName="Library/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Library/Controllers/CatalogController.cs" Line="119" Column="70" />
+      <File FileName="LibraryServices/LibraryCardService.cs" Line="1" Column="1" />
+      <File FileName="LibraryData/IAssetType.cs" Line="1" Column="1" />
+      <File FileName="LibraryServices/BookService.cs" Line="1" Column="1" />
+      <File FileName="Library/Models/Branch/BranchDetailModel.cs" Line="1" Column="1" />
+      <File FileName="Library/Models/Branch/BranchIndexModel.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Library" expanded="True" selected="True">
+          <Node name="Library" expanded="True">
             <Node name="Library" expanded="True">
-              <Node name="Views" expanded="True">
-                <Node name="Catalog" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Branch" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="LibraryData" expanded="True">
+              <Node name="Model" expanded="True">
+                <Node name="LibraryBranch.cs" selected="True" />
               </Node>
             </Node>
             <Node name="LibraryServices" expanded="True" />
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>User.FindFirstValue</Value>
+          <Value>User.FindFirst(ClaimTypes.NameIdentifier).Value</Value>
+          <Value>uss</Value>
+          <Value>claimss</Value>
+          <Value> _context.Messages</Value>
         </State>
       </Pad>
     </Pads>

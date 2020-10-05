@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/daniel/Documents/LibraryManagement/Library/LibraryData/LibraryData.csproj": {}
+    "/Users/daniel/Documents/GitHub/projects/Library/LibraryData/LibraryData.csproj": {}
   },
   "projects": {
-    "/Users/daniel/Documents/LibraryManagement/Library/LibraryData/LibraryData.csproj": {
+    "/Users/daniel/Documents/GitHub/projects/Library/LibraryData/LibraryData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/daniel/Documents/LibraryManagement/Library/LibraryData/LibraryData.csproj",
+        "projectUniqueName": "/Users/daniel/Documents/GitHub/projects/Library/LibraryData/LibraryData.csproj",
         "projectName": "LibraryData",
-        "projectPath": "/Users/daniel/Documents/LibraryManagement/Library/LibraryData/LibraryData.csproj",
+        "projectPath": "/Users/daniel/Documents/GitHub/projects/Library/LibraryData/LibraryData.csproj",
         "packagesPath": "/Users/daniel/.nuget/packages/",
-        "outputPath": "/Users/daniel/Documents/LibraryManagement/Library/LibraryData/obj/",
+        "outputPath": "/Users/daniel/Documents/GitHub/projects/Library/LibraryData/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/daniel/.nuget/NuGet/NuGet.Config"
+          "/Users/daniel/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     }

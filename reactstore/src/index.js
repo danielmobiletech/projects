@@ -6,6 +6,9 @@ import App from './App'
 import * as serviceWorker from './serviceWorker'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { ProductProvider } from './Context'
+/**
+ * ProductProvider must be the parent to anything that needs to consume the context
+ */
 ReactDOM.render(
   <React.StrictMode>
     <ProductProvider>

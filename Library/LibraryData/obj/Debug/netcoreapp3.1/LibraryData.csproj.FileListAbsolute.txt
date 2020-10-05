@@ -34,3 +34,15 @@ C:/Users/daniel/source/repos/Library/LibraryData/obj/Debug/netcoreapp3.1/Library
 /Users/daniel/Documents/LibraryManagement/Library/LibraryData/obj/Debug/netcoreapp3.1/LibraryData.pdb
 /Users/daniel/Documents/LibraryManagement/Library/LibraryData/obj/Debug/netcoreapp3.1/LibraryData.genruntimeconfig.cache
 /Users/daniel/Documents/LibraryManagement/Library/LibraryData/obj/Debug/netcoreapp3.1/LibraryData.csprojAssemblyReference.cache
+/Users/daniel/Documents/GitHub/projects/Library/LibraryData/bin/Debug/netcoreapp3.1/LibraryData.deps.json
+/Users/daniel/Documents/GitHub/projects/Library/LibraryData/bin/Debug/netcoreapp3.1/LibraryData.runtimeconfig.json
+/Users/daniel/Documents/GitHub/projects/Library/LibraryData/bin/Debug/netcoreapp3.1/LibraryData.runtimeconfig.dev.json
+/Users/daniel/Documents/GitHub/projects/Library/LibraryData/bin/Debug/netcoreapp3.1/LibraryData.dll
+/Users/daniel/Documents/GitHub/projects/Library/LibraryData/bin/Debug/netcoreapp3.1/LibraryData.pdb
+/Users/daniel/Documents/GitHub/projects/Library/LibraryData/obj/Debug/netcoreapp3.1/LibraryData.csprojAssemblyReference.cache
+/Users/daniel/Documents/GitHub/projects/Library/LibraryData/obj/Debug/netcoreapp3.1/LibraryData.AssemblyInfoInputs.cache
+/Users/daniel/Documents/GitHub/projects/Library/LibraryData/obj/Debug/netcoreapp3.1/LibraryData.AssemblyInfo.cs
+/Users/daniel/Documents/GitHub/projects/Library/LibraryData/obj/Debug/netcoreapp3.1/LibraryData.csproj.CoreCompileInputs.cache
+/Users/daniel/Documents/GitHub/projects/Library/LibraryData/obj/Debug/netcoreapp3.1/LibraryData.dll
+/Users/daniel/Documents/GitHub/projects/Library/LibraryData/obj/Debug/netcoreapp3.1/LibraryData.pdb
+/Users/daniel/Documents/GitHub/projects/Library/LibraryData/obj/Debug/netcoreapp3.1/LibraryData.genruntimeconfig.cache

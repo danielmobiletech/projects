@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { storeProducts, detailProduct } from './data'
 const ProductContext = React.createContext()
-
+//This Context use to pass down products to other components props
 class ProductProvider extends Component {
   constructor (props) {
     super(props);
@@ -24,7 +24,7 @@ class ProductProvider extends Component {
       return { detailProduct: product }
     })
   }
-
+// When product is added to the cart cart totalis recalculated when state is updated
   addToCart =( id) => {
     let tempProducts = [...this.state.products]
     const index = tempProducts.indexOf(this.getItem(id))
@@ -47,10 +47,17 @@ class ProductProvider extends Component {
     )
   }
 
+  //Get Product by ID
   getItem = id => {
     const product = this.state.products.find(item => item.id === id)
     return product
   }
+  /**
+   * Grabs Product From Data 
+   * Assign products to tempProducts
+   * It assign Products to the state's product property
+   * 
+   */
   setProducts = () => {
     let tempProducts = []
     storeProducts.forEach(item => {
@@ -157,6 +164,7 @@ class ProductProvider extends Component {
   render () {
     console.log(this.state)
     return (
+      //this sets Context api so props can utilize it
       <ProductContext.Provider
         value={{
           ...this.state,

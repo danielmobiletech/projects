@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L0QkRQiSftRIXAEhsFIIX3ijeLEdOS5yyogZD9yJhMMlWvQ/yUkwwNyts3E478HuNEFnT12zQAQpWKLjxQVbdQ==",
+  "dgSpecHash": "yAEIjTnhrh6x8JTMwm9fWIrOWaj4aUPbOzinD5MEq5Okbc3FkrGFPrd5KnytHqxBJI+J234W/4YagvXViVqHQA==",
   "success": true,
-  "projectFilePath": "/Users/daniel/Documents/LibraryManagement/Library/Library/Library.csproj",
+  "projectFilePath": "/Users/daniel/Documents/GitHub/projects/Library/Library/Library.csproj",
   "expectedPackageFiles": [
     "/Users/daniel/.nuget/packages/azure.core/1.0.2/azure.core.1.0.2.nupkg.sha512",
     "/Users/daniel/.nuget/packages/azure.identity/1.1.1/azure.identity.1.1.1.nupkg.sha512",

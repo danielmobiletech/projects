@@ -10,3 +10,15 @@
 /Users/daniel/Documents/LibraryManagement/Library/LibraryServices/obj/Release/netcoreapp3.1/LibraryServices.csproj.CopyComplete
 /Users/daniel/Documents/LibraryManagement/Library/LibraryServices/obj/Release/netcoreapp3.1/LibraryServices.dll
 /Users/daniel/Documents/LibraryManagement/Library/LibraryServices/obj/Release/netcoreapp3.1/LibraryServices.pdb
+/Users/daniel/Documents/GitHub/projects/Library/LibraryServices/bin/Release/netcoreapp3.1/LibraryServices.deps.json
+/Users/daniel/Documents/GitHub/projects/Library/LibraryServices/bin/Release/netcoreapp3.1/LibraryServices.dll
+/Users/daniel/Documents/GitHub/projects/Library/LibraryServices/bin/Release/netcoreapp3.1/LibraryServices.pdb
+/Users/daniel/Documents/GitHub/projects/Library/LibraryServices/bin/Release/netcoreapp3.1/LibraryData.dll
+/Users/daniel/Documents/GitHub/projects/Library/LibraryServices/bin/Release/netcoreapp3.1/LibraryData.pdb
+/Users/daniel/Documents/GitHub/projects/Library/LibraryServices/obj/Release/netcoreapp3.1/LibraryServices.csprojAssemblyReference.cache
+/Users/daniel/Documents/GitHub/projects/Library/LibraryServices/obj/Release/netcoreapp3.1/LibraryServices.AssemblyInfoInputs.cache
+/Users/daniel/Documents/GitHub/projects/Library/LibraryServices/obj/Release/netcoreapp3.1/LibraryServices.AssemblyInfo.cs
+/Users/daniel/Documents/GitHub/projects/Library/LibraryServices/obj/Release/netcoreapp3.1/LibraryServices.csproj.CoreCompileInputs.cache
+/Users/daniel/Documents/GitHub/projects/Library/LibraryServices/obj/Release/netcoreapp3.1/LibraryServices.csproj.CopyComplete
+/Users/daniel/Documents/GitHub/projects/Library/LibraryServices/obj/Release/netcoreapp3.1/LibraryServices.dll
+/Users/daniel/Documents/GitHub/projects/Library/LibraryServices/obj/Release/netcoreapp3.1/LibraryServices.pdb

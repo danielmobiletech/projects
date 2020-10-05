@@ -14,7 +14,7 @@ namespace Library.Controllers
     {
         private readonly ILibraryAssetService _assetsService;
         private readonly ICheckoutService _checkoutsService;
-       
+        // Assign Library Context when controller
         public CatalogController(ILibraryAssetService assetsService, ICheckoutService checkoutsService)
         {
            // _configuration = configuration;
@@ -110,19 +110,19 @@ namespace Library.Controllers
             };
             return View(model);
         }
-
+        //After Checkin redirects to details Action 
         public IActionResult CheckIn(int id)
         {
             _checkoutsService.CheckInItem(id);
             return RedirectToAction("Detail", new { id });
         }
-
+        //After Checkin redirects to details Action is status is lost
         public IActionResult MarkLost(int id)
         {
             _checkoutsService.MarkLost(id);
             return RedirectToAction("Detail", new { id });
         }
-
+        //After Checkin redirects to details Action after being found
         public IActionResult MarkFound(int id)
         {
             _checkoutsService.MarkFound(id);

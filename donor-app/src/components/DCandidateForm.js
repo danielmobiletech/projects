@@ -5,6 +5,8 @@ import { connect } from "react-redux";
 import * as actions from "../actions/dCandidate";
 import { useToasts } from "react-toast-notifications";
 
+
+// Displays errors if field forms receive the wrong data
 const styles = theme => ({
     root: {
         '& .MuiTextField-root': {
@@ -20,7 +22,7 @@ const styles = theme => ({
         margin: theme.spacing(1)
     }
 })
-
+//Set initial value the form
 const initialFieldValues = {
     fullName: '',
     mobile: '',
@@ -94,6 +96,7 @@ const DCandidateForm = ({ classes, ...props }) => {
         }
     }, [props.currentId])
 
+    //Generates the form that filled out by the donors 
     return (
         <form autoComplete="off" noValidate className={classes.root} onSubmit={handleSubmit}>
             <Grid container>

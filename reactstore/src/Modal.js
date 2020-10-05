@@ -6,7 +6,7 @@ import styled from 'styled-components'
 
 
 
-  
+// Styles the Modal   
 const ModalContainer = styled.div`
 position: fixed;
 top: 0;
@@ -19,7 +19,7 @@ align-items: center;
 justify-content: center;
 `;
 
-
+// Use Context Api to contruct a modal
 export default class Modal extends Component {
 
 

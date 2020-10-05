@@ -10,6 +10,7 @@ export default class ProductList extends Component {
      this.state = {
     products: storeProducts
   }}
+    //This iterate over the product component to create a product list it iterates over
   render () {
    console.log(this.state)
     return (

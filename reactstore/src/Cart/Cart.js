@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
-
 import Title from '../Title'
 import CartColumns from './CartColumns'
 import { ProductConsumer } from '../Context'
 import EmptyCart from './EmptyCart'
 import CartList from './CartList'
 import CartTotals from './CartTotals'
+/**
+ * This Class is used to access cart items and directs users to the Cart toview Items and be able to remove them 
+ */
 export default class Cart extends Component {
   constructor (props) {
     super()

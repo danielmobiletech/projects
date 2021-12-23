@@ -6,3 +6,12 @@
 /Users/daniel/Projects/Shop.UI/Shop.Domain/obj/Debug/netcoreapp3.1/Shop.Domain.csproj.CoreCompileInputs.cache
 /Users/daniel/Projects/Shop.UI/Shop.Domain/obj/Debug/netcoreapp3.1/Shop.Domain.dll
 /Users/daniel/Projects/Shop.UI/Shop.Domain/obj/Debug/netcoreapp3.1/Shop.Domain.pdb
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/bin/Debug/netcoreapp3.1/Shop.Domain.deps.json
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/bin/Debug/netcoreapp3.1/Shop.Domain.dll
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/bin/Debug/netcoreapp3.1/Shop.Domain.pdb
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/obj/Debug/netcoreapp3.1/Shop.Domain.csproj.AssemblyReference.cache
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/obj/Debug/netcoreapp3.1/Shop.Domain.AssemblyInfoInputs.cache
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/obj/Debug/netcoreapp3.1/Shop.Domain.AssemblyInfo.cs
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/obj/Debug/netcoreapp3.1/Shop.Domain.csproj.CoreCompileInputs.cache
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/obj/Debug/netcoreapp3.1/Shop.Domain.dll
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/obj/Debug/netcoreapp3.1/Shop.Domain.pdb

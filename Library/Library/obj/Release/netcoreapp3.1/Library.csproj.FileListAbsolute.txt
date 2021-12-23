@@ -183,7 +183,6 @@
 /Users/daniel/Documents/LibraryManagement/Library/Library/obj/Release/netcoreapp3.1/Library.csprojAssemblyReference.cache
 /Users/daniel/Documents/GitHub/projects/Library/Library/bin/Release/netcoreapp3.1/appsettings.Development.json
 /Users/daniel/Documents/GitHub/projects/Library/Library/bin/Release/netcoreapp3.1/appsettings.json
-/Users/daniel/Documents/GitHub/projects/Library/Library/bin/Release/netcoreapp3.1/Properties/launchSettings.json
 /Users/daniel/Documents/GitHub/projects/Library/Library/bin/Release/netcoreapp3.1/Library.deps.json
 /Users/daniel/Documents/GitHub/projects/Library/Library/bin/Release/netcoreapp3.1/Library.runtimeconfig.json
 /Users/daniel/Documents/GitHub/projects/Library/Library/bin/Release/netcoreapp3.1/Library.runtimeconfig.dev.json
@@ -327,13 +326,17 @@
 /Users/daniel/Documents/GitHub/projects/Library/Library/bin/Release/netcoreapp3.1/LibraryServices.dll
 /Users/daniel/Documents/GitHub/projects/Library/Library/bin/Release/netcoreapp3.1/LibraryData.pdb
 /Users/daniel/Documents/GitHub/projects/Library/Library/bin/Release/netcoreapp3.1/LibraryServices.pdb
-/Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.csprojAssemblyReference.cache
+/Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.csproj.AssemblyReference.cache
+/Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.GeneratedMSBuildEditorConfig.editorconfig
 /Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.AssemblyInfoInputs.cache
 /Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.AssemblyInfo.cs
 /Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.csproj.CoreCompileInputs.cache
 /Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.MvcApplicationPartsAssemblyInfo.cache
 /Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.RazorAssemblyInfo.cache
 /Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.RazorAssemblyInfo.cs
+/Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/staticwebassets/Library.StaticWebAssets.Manifest.cache
+/Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/staticwebassets/Library.StaticWebAssets.xml
+/Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/scopedcss/bundle/Library.styles.css
 /Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.TagHelpers.input.cache
 /Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.TagHelpers.output.cache
 /Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.RazorCoreGenerate.cache
@@ -359,8 +362,6 @@
 /Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.RazorTargetAssemblyInfo.cs
 /Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.Views.pdb
 /Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.csproj.CopyComplete
-/Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/staticwebassets/Library.StaticWebAssets.Manifest.cache
-/Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/staticwebassets/Library.StaticWebAssets.xml
 /Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.dll
 /Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.pdb
 /Users/daniel/Documents/GitHub/projects/Library/Library/obj/Release/netcoreapp3.1/Library.genruntimeconfig.cache

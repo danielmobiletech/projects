@@ -1,0 +1,85 @@
+Resources:
+  frontendbucketpolicy:
+    Type: 'AWS::S3::BucketPolicy'
+    Properties:
+      Bucket: !Ref frontendreactlogin
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Action:
+              - 's3:GetObject'
+            Effect: Allow
+            Resource: !Join 
+              - ''
+              - - 'arn:aws:s3:::'
+                - !Ref frontendreactlogin
+                - /*
+            Principal: '*'
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: b58ba1b1-a9cc-40d1-9bd2-06168f8ec6d4
+    DependsOn:
+      - frontendreactlogin
+  frontendreactlogin:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      AccessControl: PublicRead
+      BucketName: frontendreactlogin
+      MetricsConfigurations:
+        - Id: EntireBucket
+      WebsiteConfiguration:
+        IndexDocument: index.html
+        ErrorDocument: error.html
+        RoutingRules:
+          - RoutingRuleCondition:
+              HttpErrorCodeReturnedEquals: '404'
+              KeyPrefixEquals: out1/
+            RedirectRule:
+              HostName: ec2-11-22-333-44.compute-1.amazonaws.com
+              ReplaceKeyPrefixWith: report-404/
+    DeletionPolicy: Retain
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 9057fb60-5201-46a0-8fbe-17d96780367b
+Outputs:
+  WebsiteURL:
+    Value: !GetAtt 
+      - frontendreactlogin
+      - WebsiteURL
+    Description: URL for website hosted on S3
+  S3BucketSecureURL:
+    Value: !Join 
+      - ''
+      - - 'https://'
+        - !GetAtt 
+          - frontendreactlogin
+          - DomainName
+    Description: Name of S3 bucket to hold website content
+Metadata:
+  'AWS::CloudFormation::Designer':
+    9057fb60-5201-46a0-8fbe-17d96780367b:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 60
+        'y': 90
+      z: 1
+      embeds: []
+    b58ba1b1-a9cc-40d1-9bd2-06168f8ec6d4:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 180
+        'y': 90
+      z: 1
+      embeds: []
+      dependson:
+        - 9057fb60-5201-46a0-8fbe-17d96780367b
+    d2a1edc2-cce1-4522-beee-fdadc25deede:
+      source:
+        id: b58ba1b1-a9cc-40d1-9bd2-06168f8ec6d4
+      target:
+        id: 9057fb60-5201-46a0-8fbe-17d96780367b
+      z: 2

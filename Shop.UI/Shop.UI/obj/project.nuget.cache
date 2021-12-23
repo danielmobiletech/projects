@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ujkQi3GQWbsVQWhczPd1Hpbzc5ulpaLjr1MDMS7h/Imyuh0hXOuWxGR8R5IygieRzsPMGAWGDyc9J1AIE82WVw==",
+  "dgSpecHash": "Pj23U1/A0hmCSwzdAosoxcvVKJhqM3TYqeldtD+NkVb+TWGnknH74taY5NH3PRoH27G8AIpBhTkLG5QxJIEKLQ==",
   "success": true,
-  "projectFilePath": "/Users/daniel/Projects/Shop.UI/Shop.UI/Shop.UI.csproj",
+  "projectFilePath": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.UI/Shop.UI.csproj",
   "expectedPackageFiles": [
     "/Users/daniel/.nuget/packages/microsoft.aspnetcore.cryptography.internal/3.1.5/microsoft.aspnetcore.cryptography.internal.3.1.5.nupkg.sha512",
     "/Users/daniel/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/3.1.5/microsoft.aspnetcore.cryptography.keyderivation.3.1.5.nupkg.sha512",

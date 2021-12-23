@@ -14,26 +14,28 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/daniel/Projects/Shop.UI/Shop.Domain/Shop.Domain.csproj",
+      "projectUniqueName": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/Shop.Domain.csproj",
       "projectName": "Shop.Domain",
-      "projectPath": "/Users/daniel/Projects/Shop.UI/Shop.Domain/Shop.Domain.csproj",
+      "projectPath": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/Shop.Domain.csproj",
       "packagesPath": "/Users/daniel/.nuget/packages/",
-      "outputPath": "/Users/daniel/Projects/Shop.UI/Shop.Domain/obj/",
+      "outputPath": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/daniel/.config/NuGet/NuGet.Config"
+        "/Users/daniel/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "/Users/daniel/.nuget/NuGet/Microsoft.AspNet.WebApi.Cors": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -45,6 +47,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -60,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
       }
     }
   }

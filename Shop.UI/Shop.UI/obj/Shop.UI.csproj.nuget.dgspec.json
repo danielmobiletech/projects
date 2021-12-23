@@ -1,35 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "/Users/daniel/Projects/Shop.UI/Shop.UI/Shop.UI.csproj": {}
+    "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.UI/Shop.UI.csproj": {}
   },
   "projects": {
-    "/Users/daniel/Projects/Shop.UI/Shop.Application/Shop.Application.csproj": {
+    "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Application/Shop.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/daniel/Projects/Shop.UI/Shop.Application/Shop.Application.csproj",
+        "projectUniqueName": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Application/Shop.Application.csproj",
         "projectName": "Shop.Application",
-        "projectPath": "/Users/daniel/Projects/Shop.UI/Shop.Application/Shop.Application.csproj",
+        "projectPath": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Application/Shop.Application.csproj",
         "packagesPath": "/Users/daniel/.nuget/packages/",
-        "outputPath": "/Users/daniel/Projects/Shop.UI/Shop.Application/obj/",
+        "outputPath": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Application/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/daniel/.config/NuGet/NuGet.Config"
+          "/Users/daniel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "/Users/daniel/.nuget/NuGet/Microsoft.AspNet.WebApi.Cors": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/daniel/Projects/Shop.UI/Shop.Database/Shop.Database.csproj": {
-                "projectPath": "/Users/daniel/Projects/Shop.UI/Shop.Database/Shop.Database.csproj"
+              "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/Shop.Database.csproj": {
+                "projectPath": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/Shop.Database.csproj"
               }
             }
           }
@@ -42,6 +44,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -63,36 +66,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/daniel/Projects/Shop.UI/Shop.Database/Shop.Database.csproj": {
+    "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/Shop.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/daniel/Projects/Shop.UI/Shop.Database/Shop.Database.csproj",
+        "projectUniqueName": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/Shop.Database.csproj",
         "projectName": "Shop.Database",
-        "projectPath": "/Users/daniel/Projects/Shop.UI/Shop.Database/Shop.Database.csproj",
+        "projectPath": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/Shop.Database.csproj",
         "packagesPath": "/Users/daniel/.nuget/packages/",
-        "outputPath": "/Users/daniel/Projects/Shop.UI/Shop.Database/obj/",
+        "outputPath": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/daniel/.config/NuGet/NuGet.Config"
+          "/Users/daniel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "/Users/daniel/.nuget/NuGet/Microsoft.AspNet.WebApi.Cors": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/daniel/Projects/Shop.UI/Shop.Domain/Shop.Domain.csproj": {
-                "projectPath": "/Users/daniel/Projects/Shop.UI/Shop.Domain/Shop.Domain.csproj"
+              "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/Shop.Domain.csproj": {
+                "projectPath": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/Shop.Domain.csproj"
               }
             }
           }
@@ -105,6 +110,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -134,33 +140,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/daniel/Projects/Shop.UI/Shop.Domain/Shop.Domain.csproj": {
+    "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/Shop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/daniel/Projects/Shop.UI/Shop.Domain/Shop.Domain.csproj",
+        "projectUniqueName": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/Shop.Domain.csproj",
         "projectName": "Shop.Domain",
-        "projectPath": "/Users/daniel/Projects/Shop.UI/Shop.Domain/Shop.Domain.csproj",
+        "projectPath": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/Shop.Domain.csproj",
         "packagesPath": "/Users/daniel/.nuget/packages/",
-        "outputPath": "/Users/daniel/Projects/Shop.UI/Shop.Domain/obj/",
+        "outputPath": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/daniel/.config/NuGet/NuGet.Config"
+          "/Users/daniel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "/Users/daniel/.nuget/NuGet/Microsoft.AspNet.WebApi.Cors": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -172,6 +180,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -187,36 +196,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/daniel/Projects/Shop.UI/Shop.UI/Shop.UI.csproj": {
+    "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.UI/Shop.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/daniel/Projects/Shop.UI/Shop.UI/Shop.UI.csproj",
+        "projectUniqueName": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.UI/Shop.UI.csproj",
         "projectName": "Shop.UI",
-        "projectPath": "/Users/daniel/Projects/Shop.UI/Shop.UI/Shop.UI.csproj",
+        "projectPath": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.UI/Shop.UI.csproj",
         "packagesPath": "/Users/daniel/.nuget/packages/",
-        "outputPath": "/Users/daniel/Projects/Shop.UI/Shop.UI/obj/",
+        "outputPath": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.UI/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/daniel/.config/NuGet/NuGet.Config"
+          "/Users/daniel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "/Users/daniel/.nuget/NuGet/Microsoft.AspNet.WebApi.Cors": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/daniel/Projects/Shop.UI/Shop.Application/Shop.Application.csproj": {
-                "projectPath": "/Users/daniel/Projects/Shop.UI/Shop.Application/Shop.Application.csproj"
+              "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Application/Shop.Application.csproj": {
+                "projectPath": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Application/Shop.Application.csproj"
               }
             }
           }
@@ -229,6 +240,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -271,7 +283,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }

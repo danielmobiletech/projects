@@ -1,15 +1,14 @@
 ﻿<Properties StartupConfiguration="{271B4A75-C600-4027-9AC8-893FC8BF671C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Library/Controllers/BranchController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Library/appsettings.json">
     <Files>
       <File FileName="Library/Controllers/BranchController.cs" Line="11" Column="50" />
-      <File FileName="Library/Controllers/PatronController.cs" Line="1" Column="1" />
-      <File FileName="Library/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="Library/Controllers/CatalogController.cs" Line="119" Column="70" />
-      <File FileName="LibraryServices/LibraryCardService.cs" Line="1" Column="1" />
-      <File FileName="LibraryData/IAssetType.cs" Line="1" Column="1" />
-      <File FileName="LibraryServices/BookService.cs" Line="1" Column="1" />
-      <File FileName="Library/Models/Branch/BranchDetailModel.cs" Line="1" Column="1" />
-      <File FileName="Library/Models/Branch/BranchIndexModel.cs" Line="1" Column="1" />
+      <File FileName="Library/Controllers/PatronController.cs" />
+      <File FileName="Library/Controllers/HomeController.cs" />
+      <File FileName="LibraryData/IAssetType.cs" />
+      <File FileName="LibraryServices/BookService.cs" />
+      <File FileName="Library/Models/Branch/BranchDetailModel.cs" />
+      <File FileName="Library/Models/Branch/BranchIndexModel.cs" />
+      <File FileName="Library/appsettings.json" Line="3" Column="138" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,26 +16,10 @@
           <Node name="Library" expanded="True">
             <Node name="Library" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Branch" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="LibraryData" expanded="True">
-              <Node name="Model" expanded="True">
-                <Node name="LibraryBranch.cs" selected="True" />
-              </Node>
+              <Node name="appsettings.json" selected="True" />
             </Node>
             <Node name="LibraryServices" expanded="True" />
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>User.FindFirstValue</Value>
-          <Value>User.FindFirst(ClaimTypes.NameIdentifier).Value</Value>
-          <Value>uss</Value>
-          <Value>claimss</Value>
-          <Value> _context.Messages</Value>
         </State>
       </Pad>
     </Pads>

@@ -10,3 +10,15 @@
 /Users/daniel/Projects/Shop.UI/Shop.Database/obj/Debug/netcoreapp3.1/Shop.Database.csproj.CopyComplete
 /Users/daniel/Projects/Shop.UI/Shop.Database/obj/Debug/netcoreapp3.1/Shop.Database.dll
 /Users/daniel/Projects/Shop.UI/Shop.Database/obj/Debug/netcoreapp3.1/Shop.Database.pdb
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/bin/Debug/netcoreapp3.1/Shop.Database.deps.json
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/bin/Debug/netcoreapp3.1/Shop.Database.dll
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/bin/Debug/netcoreapp3.1/Shop.Database.pdb
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/bin/Debug/netcoreapp3.1/Shop.Domain.dll
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/bin/Debug/netcoreapp3.1/Shop.Domain.pdb
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/obj/Debug/netcoreapp3.1/Shop.Database.csproj.AssemblyReference.cache
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/obj/Debug/netcoreapp3.1/Shop.Database.AssemblyInfoInputs.cache
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/obj/Debug/netcoreapp3.1/Shop.Database.AssemblyInfo.cs
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/obj/Debug/netcoreapp3.1/Shop.Database.csproj.CoreCompileInputs.cache
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/obj/Debug/netcoreapp3.1/Shop.Database.csproj.CopyComplete
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/obj/Debug/netcoreapp3.1/Shop.Database.dll
+/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/obj/Debug/netcoreapp3.1/Shop.Database.pdb

@@ -1,32 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "/Users/daniel/Projects/ChatApp/ChatApp/ChatApp.csproj": {}
+    "/Users/daniel/Documents/GitHub/projects/ChatApp/ChatApp/ChatApp.csproj": {}
   },
   "projects": {
-    "/Users/daniel/Projects/ChatApp/ChatApp/ChatApp.csproj": {
+    "/Users/daniel/Documents/GitHub/projects/ChatApp/ChatApp/ChatApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/daniel/Projects/ChatApp/ChatApp/ChatApp.csproj",
+        "projectUniqueName": "/Users/daniel/Documents/GitHub/projects/ChatApp/ChatApp/ChatApp.csproj",
         "projectName": "ChatApp",
-        "projectPath": "/Users/daniel/Projects/ChatApp/ChatApp/ChatApp.csproj",
+        "projectPath": "/Users/daniel/Documents/GitHub/projects/ChatApp/ChatApp/ChatApp.csproj",
         "packagesPath": "/Users/daniel/.nuget/packages/",
-        "outputPath": "/Users/daniel/Projects/ChatApp/ChatApp/obj/",
+        "outputPath": "/Users/daniel/Documents/GitHub/projects/ChatApp/ChatApp/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/daniel/.config/NuGet/NuGet.Config"
+          "/Users/daniel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "/Users/daniel/.nuget/NuGet/Microsoft.AspNet.WebApi.Cors": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,6 +40,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -76,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
         }
       }
     }

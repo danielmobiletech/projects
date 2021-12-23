@@ -39,10 +39,10 @@ C:/Users/daniel/source/repos/Library/LibraryServices/obj/Debug/netcoreapp3.1/Lib
 /Users/daniel/Documents/GitHub/projects/Library/LibraryServices/bin/Debug/netcoreapp3.1/LibraryServices.pdb
 /Users/daniel/Documents/GitHub/projects/Library/LibraryServices/bin/Debug/netcoreapp3.1/LibraryData.dll
 /Users/daniel/Documents/GitHub/projects/Library/LibraryServices/bin/Debug/netcoreapp3.1/LibraryData.pdb
-/Users/daniel/Documents/GitHub/projects/Library/LibraryServices/obj/Debug/netcoreapp3.1/LibraryServices.csprojAssemblyReference.cache
 /Users/daniel/Documents/GitHub/projects/Library/LibraryServices/obj/Debug/netcoreapp3.1/LibraryServices.AssemblyInfoInputs.cache
 /Users/daniel/Documents/GitHub/projects/Library/LibraryServices/obj/Debug/netcoreapp3.1/LibraryServices.AssemblyInfo.cs
 /Users/daniel/Documents/GitHub/projects/Library/LibraryServices/obj/Debug/netcoreapp3.1/LibraryServices.csproj.CoreCompileInputs.cache
-/Users/daniel/Documents/GitHub/projects/Library/LibraryServices/obj/Debug/netcoreapp3.1/LibraryServices.csproj.CopyComplete
 /Users/daniel/Documents/GitHub/projects/Library/LibraryServices/obj/Debug/netcoreapp3.1/LibraryServices.dll
 /Users/daniel/Documents/GitHub/projects/Library/LibraryServices/obj/Debug/netcoreapp3.1/LibraryServices.pdb
+/Users/daniel/Documents/GitHub/projects/Library/LibraryServices/obj/Debug/netcoreapp3.1/LibraryServices.csproj.AssemblyReference.cache
+/Users/daniel/Documents/GitHub/projects/Library/LibraryServices/obj/Debug/netcoreapp3.1/LibraryServices.GeneratedMSBuildEditorConfig.editorconfig

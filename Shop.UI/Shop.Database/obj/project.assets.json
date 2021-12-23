@@ -5100,29 +5100,31 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/daniel/Projects/Shop.UI/Shop.Database/Shop.Database.csproj",
+      "projectUniqueName": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/Shop.Database.csproj",
       "projectName": "Shop.Database",
-      "projectPath": "/Users/daniel/Projects/Shop.UI/Shop.Database/Shop.Database.csproj",
+      "projectPath": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/Shop.Database.csproj",
       "packagesPath": "/Users/daniel/.nuget/packages/",
-      "outputPath": "/Users/daniel/Projects/Shop.UI/Shop.Database/obj/",
+      "outputPath": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Database/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/daniel/.config/NuGet/NuGet.Config"
+        "/Users/daniel/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "/Users/daniel/.nuget/NuGet/Microsoft.AspNet.WebApi.Cors": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/daniel/Projects/Shop.UI/Shop.Domain/Shop.Domain.csproj": {
-              "projectPath": "/Users/daniel/Projects/Shop.UI/Shop.Domain/Shop.Domain.csproj"
+            "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/Shop.Domain.csproj": {
+              "projectPath": "/Users/daniel/Documents/GitHub/projects/Shop.UI/Shop.Domain/Shop.Domain.csproj"
             }
           }
         }
@@ -5135,6 +5137,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
@@ -5164,7 +5167,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
       }
     }
   }
